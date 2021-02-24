@@ -8,17 +8,17 @@ textarea {
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
-    border-left: 1px solid #000000;
+    color: black;
+    border-left: 1px solid black;
     padding: 10px;
 }
 
 .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: #000000;
+    color: black;
     border-radius: 0;
-    border-bottom: 10px solid #000000;
+    border-bottom: 10px solid black;
 }
 
 .description {
@@ -34,4 +34,38 @@ textarea {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
+}
+
+.hour {
+    background-color: white;
+    color: black;
+    border-top: 1px dashed black;
+}
+
+.past {
+    background-color: lightgrey;
+    color: white;
+}
+
+.present {
+    background-color: red;
+    color: white;
+}
+
+.future {
+    background-color: green;
+    color: white;
+}
+
+.saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: skyblue;
+    color: white;
+}
+
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
 }
